@@ -7,6 +7,9 @@ hasonlót ami egy informatikai feladat megoldásához kellett. Azért választot
 a python nyelvet, mert viszonylag sokat használtam a scratch-et és a két nyelv nagyon
 hasonló, így egyszerűbb dolgom volt ebben írni.
 '''
+##################
+#készítette: Bence
+##################
 from math import *
 def pt():
     befogó1 = input("'a' befogó mérete (Ha nincs adat írj 0 át!): ")
