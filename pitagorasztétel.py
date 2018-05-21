@@ -14,8 +14,8 @@ from math import *
 def pt():
     befogó1 = input("'a' befogó mérete (Ha nincs adat írj 0 át!): ")
     befogó2 = input("'b' befogó mérete (Ha nincs adat írj 0 át!): ")
-    a = int(befogó1)
-    b = int(befogó2)
+    a = float(befogó1)
+    b = float(befogó2)
     if a and b > 0:
         részmegoldás1 = ((a * a) + (b * b))
         c = sqrt(részmegoldás1)
@@ -38,7 +38,7 @@ def pt():
             print("Ebben az esetben további szép napot kívánok!:)")
     elif a == 0:
         átfogó = input("Mennyi a 'c' átfogó mérete?: ")
-        c = int(átfogó)
+        c = float(átfogó)
         a = sqrt(((c * c) - (b * b)))
         print("Az oldalak hossza: ","'a' oldal:",a, sep=" ")
         print("'b' oldal:",b, sep=" ")
@@ -59,7 +59,7 @@ def pt():
             print("Ebben az esetben további szép napot kívánok!:)")
     elif b == 0:
         átfogó = input("Mennyi a 'c' átfogó mérete?: ")
-        c = int(átfogó)
+        c = float(átfogó)
         b = sqrt(((c * c) - (a * a)))
         print("Az oldalak hossza: ","'a' oldal:",a, sep=" ")
         print("'b' oldal:",b, sep=" ")
